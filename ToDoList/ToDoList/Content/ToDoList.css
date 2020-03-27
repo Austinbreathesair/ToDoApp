@@ -1,0 +1,11 @@
+#addListSection, #deleteListSection {
+    font-size: 2em;
+}
+
+#addListSection {
+    color: green;
+}
+
+#deleteListSection {
+    color: red;
+}

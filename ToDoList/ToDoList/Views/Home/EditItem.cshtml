@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Edit Item";
+}
+<h2>@ViewBag.Title.</h2>
+
+<form>
+    <div class="form-group">
+        <label for="formGroupExampleInput"> Item Description </label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Edit item">
+    </div>
+</form>
+
+<a class="btn btn-danger" role="button" @Html.ActionLink("Back", "Index", "Home")></a>
+<button class="btn btn-success" type="submit">Edit Item</button>
